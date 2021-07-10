@@ -1,5 +1,97 @@
 /* Jesse's section */
+.header{
+    align-items: center;
+}
 
+.header-left h1{
+    font-weight: 550;
+}
+
+.gray-text{
+    font-size: 120%;
+    font-weight: 500;
+}
+
+.header-btn-container{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.header-btn{
+    padding: 15px;
+    font-weight: 700;
+    font-size: 120%;
+    border-radius: 10px;
+}
+
+.header-chat-btn{
+    margin-left: 10px;
+}
+
+.features-text{
+    font-size: 80%;
+}
+
+@media (min-width: 768px) {
+    .header-left{
+        padding-left: 80px;
+    }
+}
+
+.dot{
+    height: 7px;
+    width: 7px;
+    /* background-color: blue; */
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.heading-container{
+    text-align: center;
+    padding: 40px 0;
+}
+
+.main-btn-container{
+    text-align:center;
+}
+
+.main-btn{
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.main-btn img{
+    width: 50px;
+}
+
+.img-with-desc{
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-with-desc img{
+    padding: 150px 10px;
+}
+
+.description{
+    margin-right: 0;
+    padding: 150px 40px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+.description ul{
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 70%;
+}
 
 /* Christian's section */
 
