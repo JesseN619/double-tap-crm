@@ -2,6 +2,62 @@
 
 
 /* Christian's section */
+.supgrd{
+    display: grid;
+    grid-template-columns; 45% 55%
+}
+
+.supdivlft{
+    background: url(assets/Group10.png)
+    align: center;
+}
+
+.supbtn{
+    border-radius: 50px;
+    height: 15px;
+    line-height: 15px;
+    color: white;
+    width: 140px;
+    font-size: 25px;
+    padding: 20px 30px;
+    background-color: blue;
+    border: 2px solid white;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.singrd{
+    display: grid;
+    grid-template-columns; 55% 45%
+}
+
+.sindiv{
+
+}
+
+.sinbtn {
+    border-radius: 50px;
+    height: 15px;
+    line-height: 15px;
+    color: white;
+    width: 140px;
+    font-size: 25px;
+    padding: 20px 30px;
+    background-color: blue;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
 
 
+
+
+
+
+
+{
+
+}
 /* Zach's section */
