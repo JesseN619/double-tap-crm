@@ -22,10 +22,11 @@
     font-weight: 700;
     font-size: 120%;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
-.header-chat-btn{
-    margin-left: 10px;
+.header-sign-up-btn{
+    margin-right: 10px;
 }
 
 .features-text{
@@ -51,6 +52,16 @@
     padding: 40px 0;
 }
 
+@media (max-width: 767px) {
+    .header-right>img{
+        width: 70%;
+    }
+
+    .header-right{
+        text-align: center;
+    }
+}
+
 .main-btn-container{
     text-align:center;
 }
@@ -60,10 +71,22 @@
     border-radius: 10px;
     height: 100px;
     width: 100px;
+    position: relative;
 }
 
 .main-btn img{
-    width: 50px;
+    width: 45px;
+    position: absolute;
+    top: 15px;
+    left: 28px;
+}
+
+.main-btn p{
+    position: absolute;
+    text-align: center;
+    width: 80%;
+    font-size: 85%;
+    top: 70px;
 }
 
 .img-with-desc{
@@ -76,21 +99,49 @@
     padding-right: 0;
 }
 
+#main-img-with-desc{
+    margin-top: 7rem;
+}
+
 .img-with-desc img{
-    padding: 150px 10px;
+    padding: 140px 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 767px){
+    .img-with-desc img{
+        padding: 30px 10px;
+    }
 }
 
 .description{
     margin-right: 0;
-    padding: 150px 40px;
+    padding: 0 40px;
     border-radius: 20px;
     border: 1px solid gray;
+    display: flex;
+    align-items: center;
+}
+
+.description>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70%;
 }
 
 .description ul{
     list-style-type: none;
     padding-left: 0;
     font-size: 70%;
+    width: 80%;
+}
+
+.learn-more-btn {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 40px;
 }
 
 /* Christian's section */
