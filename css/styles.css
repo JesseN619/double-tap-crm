@@ -145,39 +145,15 @@
 }
 
 /* Christian's section */
-.supgrd{
-    display: grid;
-    grid-template-columns; 45% 55%
-}
-
-.supdivlft{
-    background: url(assets/Group10.png)
-    align: center;
-}
-
-
 .supbtn{
     border-radius: 50px;
-    height: 15px;
-    line-height: 15px;
-    color: white;
-    width: 140px;
-    font-size: 25px;
-    padding: 20px 30px;
-    background-color: blue;
-    border: 2px solid white;
-    display: inline-block;
-    cursor: pointer;
+    height: 1;
     text-align: center;
-}
-
-.singrd{
-    display: grid;
-    grid-template-columns; 55% 45%
-}
-
-.sindiv{
-
+    width: 140px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid;
+    cursor: pointer;
 }
 
 .sinbtn {
@@ -195,15 +171,24 @@
     text-align: center;
 }
 
-
-
-
-
-
-
-{
-
+.text1 {
+    background-image:url ('assets\CRM-SigIn-AssetFiles\Page-1.png');
+    position: left;
+    padding-left: 30px;
+    background-size: 10px;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    border: 1px solid;
+    width: 355px;
+    height: 50px
 }
+
+
+
+
+
+
+
 /* Zach's section */
 
 body{
