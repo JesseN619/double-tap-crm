@@ -17,46 +17,47 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-white px-5">
-        <a class="navbar-brand" href="#">Doubletap</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Doubletap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse d-flex" id="navbarSupportedContent nav-center">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" id="navbarDropdown" role="button" aria-expanded="false">
-                        Pricing
-                    </a>
-                </li>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <!-- removed id "nav-center from above" -->
+                <ul class="navbar-nav">
+                    <!-- removed mr-auto from line above -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Pricing
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="how-it-works.html">How It Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Support
+                        </a>
+                    </li>
 
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" id="navbarDropdown" role="button" aria-expanded="false">
-                        Pricing
-                    </a>
-                </li>
+                </ul>
+                <div class="ms-auto">
 
-            </ul>
-            <div class="ms-auto">
+                    <a href="sign-in.html"><button type="button"
+                            class="btn btn-light  text-primary border-primary">&nbsp;&nbsp; Sign in</button></a>
+                    <a class="ml-3" href="sign-up.html"><button type="button" class="btn btn-primary">Try it Free
+                            &nbsp;&nbsp;
+                        </button></a>
 
-                <a href="sign-in.html"><button type="button"
-                        class="btn btn-light  text-primary border-primary">&nbsp;&nbsp; Sign in</button></a>
-                <a class="ml-3" href="sign-up.html"><button type="button" class="btn btn-primary">Try it Free
-                        &nbsp;&nbsp;
-                    </button></a>
-
+                </div>
             </div>
         </div>
     </nav>
@@ -190,7 +191,7 @@
     </div>
     <div class="container-fluid">
         <div class="row bg-primary">
-            <div class=" col-12 col-md-4 offset-md-4 text-white">
+            <div class=" col-12 col-md-4 offset-md-4 text-white text-center">
                 <p class="display-6 text-center">Try Double Tap Today!</p>
                 <p class="text-center">Let's Get Started</p>
                 <a href="sign-up.html"><button type="button" class="btn btn-success header-btn header-sign-up-btn">Sign
@@ -218,9 +219,6 @@
         </div>
     </div>
     <!-- Footer -->
-    <footer>
-
-    </footer>
 
 </body>
 
