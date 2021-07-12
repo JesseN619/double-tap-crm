@@ -213,9 +213,12 @@ body{
 }
 header,footer{
    position: absolute; 
-   background-color: #000;
+   background-color:white;
    width: 100%;
    color: white;
+   }
+   .nav-center{
+       justify-content: center;
    }
    header h2{
     position: absolute;
@@ -232,10 +235,4 @@ header,footer{
        position: absolute;
        left: 45;
    }
-   nav{
-       position: absolute;
-        left: 45%;
-        top: 20px;
-        color:white
-   }
-
+   
